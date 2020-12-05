@@ -18,7 +18,7 @@
 
             for (int i = 0; i < input.Length - 2; i++)
             {
-                for (int j = i + 1; j < input.Length  1; j++)
+                for (int j = i + 1; j < input.Length - 1; j++)
                 {
                     for (int k = j + 1; k < input.Length; k++)
                     {
@@ -29,7 +29,6 @@
                     }                    
                 }
             }
-            System.Console.ReadLine();
         }
     }
 }
